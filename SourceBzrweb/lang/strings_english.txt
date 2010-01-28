@@ -1,0 +1,21 @@
+<?php
+# Copyright (C) 2009 Kirill Krasnov, www.kraeg.ru
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+$s_plugin_SourceBzrweb_ = '';
+$s_plugin_SourceBzrweb_bzrweb = 'Bzrweb';
+$s_plugin_SourceBzrweb_title = 'Bzrweb Integration';
+$s_plugin_SourceBzrweb_description = 'Adds Bzrweb integration to the Source Integration framework.';
+
+$s_plugin_SourceBzrweb_bzrweb_root = 'Bzrweb Root URL';
+$s_plugin_SourceBzrweb_bzrweb_project = 'Bzrweb Project<br/><span class="small">(including ".git")</span>';
+$s_plugin_SourceBzrweb_master_branch = 'Primary Branches<br/><span class="small">(comma-separated list)</span>';
