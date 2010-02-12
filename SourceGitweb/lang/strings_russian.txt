@@ -1,0 +1,21 @@
+<?php
+# Copyright (C) 2008-2009 John Reese, LeetCode.net
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+$s_plugin_SourceGitweb_ = '';
+$s_plugin_SourceGitweb_gitweb = 'Gitweb';
+$s_plugin_SourceGitweb_title = 'Gitweb интегратор';
+$s_plugin_SourceGitweb_description = 'Добавляет интеграцию Gitweb в Source Integration framework.';
+
+$s_plugin_SourceGitweb_gitweb_root = 'Корневой URL для Gitweb';
+$s_plugin_SourceGitweb_gitweb_project = 'Проект Gitweb<br/><span class="small">(включая ".git")</span>';
+$s_plugin_SourceGitweb_master_branch = 'Главные ветки<br/><span class="small">(список разделенный запятыми)</span>';

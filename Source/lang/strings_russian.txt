@@ -1,0 +1,130 @@
+<?php
+# Copyright (C) 2008-2009 John Reese, LeetCode.net
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+$s_plugin_Source_ = '';
+$s_plugin_Source_title = 'Интеграция контроля версий';
+$s_plugin_Source_description = 'Интеграция контроля версий реализует абстрактную модель API для поддержки любых систем контроля версий.';
+$s_plugin_Source_version = '0.13';
+
+$s_plugin_Source_repository = 'репозитарий';
+$s_plugin_Source_repositories = 'репозитарии';
+$s_plugin_Source_changeset = 'изменения';
+$s_plugin_Source_changesets = 'изменения';
+$s_plugin_Source_file = 'файл';
+$s_plugin_Source_files = 'файлы';
+$s_plugin_Source_diff = 'различия';
+
+$s_plugin_Source_name = 'имя';
+$s_plugin_Source_type = 'тип';
+$s_plugin_Source_branch = 'ветка';
+$s_plugin_Source_action = 'действие';
+$s_plugin_Source_author = 'автор';
+$s_plugin_Source_committer = 'коммитер';
+$s_plugin_Source_username = 'имя пользователя';
+$s_plugin_Source_timestamp = 'время';
+$s_plugin_Source_parent = 'владелец';
+$s_plugin_Source_url = 'URL';
+$s_plugin_Source_info = 'дополнительная информация';
+$s_plugin_Source_revision = 'ревизия';
+$s_plugin_Source_date_begin = 'дата начала';
+$s_plugin_Source_date_end = 'дата окончания';
+$s_plugin_Source_message = 'сообщение';
+$s_plugin_Source_filename = 'имя файла';
+$s_plugin_Source_ported = 'отправлено';
+$s_plugin_Source_vcs_username = 'имя пользователя Системы контроля версий';
+
+$s_plugin_Source_issue = 'задача';
+$s_plugin_Source_issues = 'задачи';
+$s_plugin_Source_actions = 'действия';
+
+$s_plugin_Source_details = 'детали';
+$s_plugin_Source_browse = 'обзор';
+$s_plugin_Source_manage = 'изменить';
+$s_plugin_Source_create = 'создать';
+$s_plugin_Source_import = 'импорт';
+$s_plugin_Source_update = 'обновить';
+$s_plugin_Source_delete = 'удалить';
+$s_plugin_Source_search = 'поиск';
+$s_plugin_Source_attach = 'присоеденить';
+$s_plugin_Source_detach = 'отсоединить';
+$s_plugin_Source_modify_search = 'изменить поиск';
+$s_plugin_Source_new_search = 'новый поиск';
+$s_plugin_Source_permalink = 'постоянная ссылка';
+$s_plugin_Source_select_one = '(выберите одну)';
+$s_plugin_Source_select_any = '[любой]';
+$s_plugin_Source_pending = 'ожидание';
+$s_plugin_Source_na = 'Н/Д';
+
+$s_plugin_Source_back = 'назад';
+$s_plugin_Source_import_full = 'импортировать все';
+$s_plugin_Source_import_latest = 'импортировать последние изменения';
+$s_plugin_Source_related_changesets = 'связанные изменения';
+$s_plugin_Source_affected_issues = 'затрагиваемые задачи';
+$s_plugin_Source_attach_to_issue = 'присоединить задачу:';
+
+$s_plugin_Source_configuration = 'настройки';
+$s_plugin_Source_allow_remote_checkin = 'разрешить проверку удаленных систем';
+$s_plugin_Source_remote_checkin_urls = 'разрешенные адреса';
+$s_plugin_Source_allow_remote_import = 'разрешить импорт удаленных систем';
+$s_plugin_Source_remote_import_urls = 'разрешенные адреса';
+$s_plugin_Source_view_threshold = 'доступ на просмотр';
+$s_plugin_Source_update_threshold = 'доступ на обновление';
+$s_plugin_Source_manage_threshold = 'доступ на управление';
+$s_plugin_Source_username_threshold = 'установить имя';
+$s_plugin_Source_buglink_regex_1 = 'Bug Link Regex Pass 1';
+$s_plugin_Source_buglink_regex_2 = 'Bug Link Regex Pass 2';
+$s_plugin_Source_bugfix_regex_1 = 'Bug Fixed Regex Pass 1';
+$s_plugin_Source_bugfix_regex_2 = 'Bug Fixed Regex Pass 2';
+$s_plugin_Source_bugfix_resolution = 'состояние, когда ошибка исправлена';
+$s_plugin_Source_bugfix_message = 'шаблон сообщения об исправлении ошибки';
+$s_plugin_Source_bugfix_message_info = '<span class="small">Используйте $1 для ветви, $2 для ревизии, $3 для времени, или $4 для коммит сообщения.</span>';
+$s_plugin_Source_reset = 'сбросить в настройки по-умолчанию';
+$s_plugin_Source_menu_links = 'ссылки в главном меню';
+$s_plugin_Source_show_repo_link = 'репозитарии';
+$s_plugin_Source_show_search_link = 'поиск';
+$s_plugin_Source_show_repo_stats = 'статистика репозитария';
+$s_plugin_Source_enabled_features = 'доступные возможности';
+$s_plugin_Source_enable_mapping = 'Branch Mappings';
+$s_plugin_Source_enable_resolving = 'Resolve Fixed Issues';
+$s_plugin_Source_enable_message = 'Сообщения при исправлении ошибки';
+$s_plugin_Source_enable_porting = 'Porting Status';
+
+$s_plugin_Source_branch_mapping = 'Branch Mappings';
+$s_plugin_Source_mapping_update = 'Update Mappings';
+$s_plugin_Source_mapping_strategy = 'стратегия';
+$s_plugin_Source_mapping_version = 'версия';
+$s_plugin_Source_mapping_version_info = '<acronym title="Используется только со стратегией Explicit Version.">?</acronym>';
+$s_plugin_Source_mapping_regex = 'регулярное выражение';
+$s_plugin_Source_mapping_regex_info = '<acronym title="Применяется только в выбранной стратегии для версий удовлетворяющих заданному регулярному выражению PCRE.">?</acronym>';
+$s_plugin_Source_mapping_create = 'Create Mapping';
+$s_plugin_Source_mapping_explicit = 'Explicit Version';
+$s_plugin_Source_mapping_near = 'ближайшая дата релиза';
+$s_plugin_Source_mapping_far = 'будущая дата релиза';
+$s_plugin_Source_mapping_first = 'Version Sorted First';
+$s_plugin_Source_mapping_last = 'Version Sorted Last';
+
+$s_plugin_Source_changeset_attached = 'добавлены изменения';
+$s_plugin_Source_changeset_removed = 'изменения удалены';
+
+$s_plugin_Source_ensure_delete = 'Вы действительно хотите удалить репозитарий "%s" и всю его историю?';
+$s_plugin_Source_ensure_import_full = 'Предпринимается попытка создать новую копию Вашего репозитария, с удалением всей старой информации репозитария, и может понадобиться доступ к системе.  Хотите продолжить?';
+$s_plugin_Source_ensure_import_latest = 'Предпринимается попытка импортировать изменения в Ваш репозитарий, и может понадобиться доступ к системе.  Хотите продолжить?';
+$s_plugin_Source_import_stats = 'импортировано %s изменений, %s файлов, и %s описаний ошибок.';
+
+$s_plugin_Source_invalid_checkin_url = 'ошибка в удаленном адресе для проверки';
+$s_plugin_Source_invalid_import_url = 'ошибка в удаленном адресе для импорта';
+$s_plugin_Source_invalid_repo = 'неправильное имя репозитария';
+$s_plugin_Source_invalid_changeset = 'информация о изменениях будет загружена';
+
+$s_plugin_Source_import_latest_failed = 'ошибка импорта последних изменений.';
+$s_plugin_Source_import_full_failed = 'ошибка импорта всех данных.';
