@@ -6,7 +6,7 @@
 $s_plugin_Source_ = '';
 $s_plugin_Source_title = 'Интеграция контроля версий';
 $s_plugin_Source_description = 'Интеграция контроля версий реализует абстрактную модель API для поддержки любых систем контроля версий.';
-$s_plugin_Source_version = '0.14';
+$s_plugin_Source_version = '0.15';
 
 $s_plugin_Source_repository = 'репозитарий';
 $s_plugin_Source_repositories = 'репозитарии';
