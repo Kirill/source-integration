@@ -94,6 +94,11 @@ $s_plugin_Source_show_repo_link = 'репозитарии';
 $s_plugin_Source_show_search_link = 'поиск';
 $s_plugin_Source_show_repo_stats = 'статистика репозитария';
 $s_plugin_Source_enabled_features = 'доступные возможности';
+$s_plugin_Source_show_repo_link = 'репозитарии';
+$s_plugin_Source_show_search_link = 'поиск';
+$s_plugin_Source_show_repo_stats = 'Статистика репозитария';
+$s_plugin_Source_enabled_features = 'включить дополнения';
+$s_plugin_Source_enable_linking = 'Changeset Linking <span class="small">([sv]:&lt;reponame&gt;:&lt;revision&gt;:)</span>';
 $s_plugin_Source_enable_mapping = 'Branch Mappings';
 $s_plugin_Source_enable_resolving = 'Resolve Fixed Issues';
 $s_plugin_Source_enable_message = 'Сообщения при исправлении ошибки';
@@ -130,3 +135,4 @@ $s_plugin_Source_invalid_repo = 'неправильное имя репозит�
 $s_plugin_Source_invalid_changeset = 'информация о изменениях будет загружена';
 
 $s_plugin_Source_import_full_failed = 'ошибка импорта всех данных.';
+
