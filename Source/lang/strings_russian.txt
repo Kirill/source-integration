@@ -44,6 +44,7 @@ $s_plugin_Source_browse = 'обзор';
 $s_plugin_Source_manage = 'изменить';
 $s_plugin_Source_create = 'создать';
 $s_plugin_Source_import = 'импорт';
+$s_plugin_Source_edit = 'правка';
 $s_plugin_Source_update = 'обновить';
 $s_plugin_Source_delete = 'удалить';
 $s_plugin_Source_search = 'поиск';
