@@ -67,6 +67,7 @@ $s_plugin_Source_search_changesets = 'поиск изменений';
 
 $s_plugin_Source_back = 'назад';
 $s_plugin_Source_back_repo = 'назад в репозитарий';
+$s_plugin_Source_back_changeset = 'назад в список изменений';
 $s_plugin_Source_import_full = 'импортировать все';
 $s_plugin_Source_import_latest = 'импортировать последние изменения';
 $s_plugin_Source_related_changesets = 'связанные изменения';
