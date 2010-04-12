@@ -18,14 +18,14 @@ if ( false === include_once( config_get( 'plugin_path' ) . 'Source/MantisSourceP
 require_once( config_get( 'core_path' ) . 'url_api.php' );
 
 class SourceBzrwebPlugin extends MantisSourcePlugin {
-	function register() {
+	public function register() {
 		$this->name = plugin_lang_get( 'title' );
 		$this->description = plugin_lang_get( 'description' );
 
 		$this->version = '0.0.1';
 		$this->requires = array(
 			'MantisCore' => '1.2.0',
-			'Source' => '0.13',
+			'Source' => '0.16',
 			'Meta' => '0.1',
 		);
 
@@ -33,6 +33,8 @@ class SourceBzrwebPlugin extends MantisSourcePlugin {
 		$this->contact = 'krasnovforum@gmail.com';
 		$this->url = 'http://www.kraeg.ru';
 	}
+
+	public $type = 'bzrweb';
 
 	function get_types( $p_event ) {
 		return array( 'bzrweb' => plugin_lang_get( 'bzrweb' ) );
