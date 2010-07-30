@@ -10,4 +10,6 @@ $s_plugin_SourceGithub_description = 'Добавляет интеграцию Gi
 
 $s_plugin_SourceGithub_hub_username = 'Имя пользователя GitHub';
 $s_plugin_SourceGithub_hub_reponame = 'Имя репозитария GitHub<br/><span class="small">(только имя в нижней раскладке)</span>';
+$s_plugin_SourceGithub_hub_api_login = 'GitHub API Логин<br/><span class="small">Только для частных репозитариев</span>';
+$s_plugin_SourceGithub_hub_api_token = 'GitHub API Токен<br/><span class="small">Только для частных репозитариев</span>';
 $s_plugin_SourceGithub_master_branch = 'Главные ветки<br/><span class="small">(список разделенный запятыми)</span>';
